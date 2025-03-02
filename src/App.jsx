@@ -72,7 +72,7 @@ const Globe = () => {
       
       {/* Layer: Countries */}
       <GeoJsonLayer 
-        url="./countries.json" 
+        url="./public/countries.json" 
         radius={radius * 1.001} 
         color={0x80FF80} 
         linewidth={1} 
